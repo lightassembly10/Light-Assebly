@@ -175,7 +175,7 @@ async function setupNewsSection() {
                 <div class="news-body">
 
                     <div class="news-date">
-                        📅 ${post.createdAt ? Utils.formatDate(post.createdAt) : ''}
+                         ${post.createdAt ? Utils.formatDate(post.createdAt) : ''}
                     </div>
 
                     <h3 class="news-title">${post.title}</h3>
